@@ -4,8 +4,10 @@
 	$client_id		= 'CLIENT ID';
 	$client_secret 	= 'CLIENT SECRET';
 	$redirect_uri 	= 'REDIRECT URL';
-	           //Test23213
-             //test1
+   //Test23213
+   //test1
+
+	//test
 	$box = new Box_API($client_id, $client_secret, $redirect_uri);
 	
 	if(!$box->load_token()){
